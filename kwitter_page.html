@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DevC Chat Room</title>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    </head>
+    <body>
+        <div class="container">
+            <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout1()">Logout</button>
+                <center>
+                    <h1 class="header">	
+                        DevC	
+                        <sup>
+                            <img src="download.jfif">
+                        </sup>
+                    </h1>
+                   <div id="output">
+                   </div>
+                                </center>
+                <div id="3_things" style="background-color:darkgray; position: fixed; bottom: 0px; width: 100%; text-align: center; margin-left: -200px;">
+                    <h3>Send:</h3>
+                    <span><input type="text" id="msg_by_user" class="form-control"><form action="/action_page.php">
+                        <input type="file" id="myFile" name="filename">
+                      </form></span>
+                    <br>
+                    <br?
+                    <button id="send101" onclick="send_msg()" class="btn-success form-control" style="width: 100px; margin-left: 715px;">Send</button>
+                    <br>
+                    <br>
+                </div>
+                </div>
+            </div>
+            <script src="kwitter_page.js"></script>
+        </body>
+</html>
